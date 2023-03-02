@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <thead>
+        <tr>
+            <td>
+                <fieldset>
+                    <legend>Link</legend>
+                    <ul>
+                        <li><a href="latihan1.html">Home</a></li>
+                        <li><a href="latihan2.html" target="blank">Biodata</a></li>
+                    </ul>
+                </fieldset>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+    <!--Membuat form-->
+    <form>
+        <fieldset>
+        <table border="0" align="center" cellpadding="10" width="15%">
+                <thead>
+                <tr bgcolor="silver">
+                    <th colspan="2">Latihan Membuat Form</th>
+                </tr>
+            </thead>
+            <!--tfoot walaupun kodingan ada ditengah tetapi tampilan akan tetap dibawah-->
+            <tfoot>
+                <tr>
+                    <th>
+                        <input type="submit">
+                    </th>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                <td width="25%">
+                    <!--Input nama menggunakan type text-->
+                    <tabel>Nama</tabel>
+                </td>
+                <td>
+                    <input type="text" name="name" value="" 
+                    placeholder="Silahkan masukkan nama" size="50" width="100%">
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table> Email</table>
+                    </td>
+                    <td>
+                        <input type="email" name="email" value="" placeholder="Masukkan Email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table>Gender</table>
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" value="L" checked> Laki-laki &nbsp;&nbsp; <br>
+                        <input type="radio" name="gender" value="P" > Perempuan &nbsp;&nbsp; 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <tabel>Hobby</tabel>
+                        <td>
+                            <input type="checkbox" name="hobby" value="Menulis"> menulis <br>
+                            <input type="checkbox" name="hobby" value="Membaca"> Membaca <br>
+                            <input type="checkbox" name="hobby" value="Makan"> Makan <br>
+                            <input type="checkbox" name="hobby" value="Kuliner">Kuliner
+                        </td> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table>Pendidikan</table>
+                    </td>
+                    <td>
+                        <select name="Pendidikan">
+                            <option>-----Pilih Pendidikan----</option>
+                            <option value="SMA">SMA</option>
+                            <option value="D1">D1</option>
+                            <option value="D2">D2</option>
+                            <option value="D3">D3</option>
+                            <option value="D4">D4</option>
+                            <option value="S1">S1</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table>Alamat</table>
+                    </td>
+                    <td>
+                        <textarea name="Alamat" cols="50" rows="5" placeholder="tuliskan alamat">Tuliskan Alamat</textarea>
+                    </td>
+
+                </tr>
+            </tbody>
+            </table>
+        </fieldset>
+    </form>
+    </td>
+    </tr>
+</table>
+</body>
+</html>
