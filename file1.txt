@@ -1,0 +1,6 @@
+Makanan
+1. ayam
+2. nasi
+3. ikan 
+4. daging sapi
+5. nasi padang
