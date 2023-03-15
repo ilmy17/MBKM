@@ -18,7 +18,12 @@
     }
     let jumBel = 10;
     let bruto = harsat * jumBel;
+    //jika dia membeli motor maka dia akan diskon
 
+    //if (produk == 'motor') diskon = 0.1 * bruto;
+    //else diskon = 0;
+    let diskon = (produk == 'motor') ? 0.1 * bruto : 0;
+    let harga_diskon = bruto - diskon;
     document.write("Data Pembelian" + 
     "<br> Pelanggan" + pelanggan+
     "<br> Produk Yang Dibeli" + produk +
