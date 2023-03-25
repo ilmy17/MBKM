@@ -23,9 +23,9 @@
     <tbody>
         <script>
             var no = 1;
-            for (p of person){
+            for (p.nilai){
                 let ket = (p.nilai >= 60)? "Lulus" : "Gagal";
-                document.write(`<tr bgcolor="">
+                document.write(`<tr bgcolor="yellow">
             
             <td>${no++}</td>
             <td>${p.nama}</td>
@@ -33,4 +33,5 @@
             <td>${ket} </td>
         </tr>`)
     }
+
     </script>
