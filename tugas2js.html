@@ -1,0 +1,29 @@
+<script>
+    let pelanggan= "ilmy";
+    let jabatan= "manager";
+    let status= "Bebas";
+    let gapok= 0;
+
+
+    switch(jabatan){
+        case 'manager': gapok = 10000000; break;
+        case 'asmanager': gapok = 8000000; break;
+        case 'staf' : gapok = 5000000; break;
+        default: gapok = 0;
+    }
+
+    let tujabatan = gapok * 0.1;
+    let bpjs = gapok * 0.1;
+    let tukeluarga = gapok * 0.1;
+    let total = gapok + tujabatan + bpjs + tukeluarga;
+
+  
+    document.write("Pelanggan:" + pelanggan +
+    "<br> Jabatan :" + jabatan +
+    "<br> Status :" + status +
+    "<br> Gaji Poko:" + gapok +
+    "<br> Tunjangan Jabatan:" + tujabatan +
+    "<br> BPJS: " + bpjs +
+    "<br> Tunjangan Keluarga:" + tukeluarga +
+    "<br> Total Penghasilan:" + total  );
+</script>
