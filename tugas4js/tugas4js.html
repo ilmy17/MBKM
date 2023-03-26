@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="css/hiasan.css">
+</head>
+<body>
+    <div class="body">
+        <form id="kalkulator">
+            <h1>#CALCULATOR#</h1>
+
+            <div class="input">
+                <input type="number" name="angka1" placeholder="Kolom Ke-1">
+                <input type="text" id="math" name="math" value="|" disabled>
+                <input type="number" name="angka2" placeholder="Kolom ke-2">
+            </div>
+            <input id="hasil" type="text" name="hasil" value="" placeholder="Hasil" disabled>
+            <div class="math">
+                <button type="button" name="btn-tambah" onclick="tambah()">+</button>
+                <button type="button" name="btn-kurang" onclick="kurang()">-</button>
+                <button type="button" name="btn_kali" onclick="kali()">x</button>
+                <button type="button" name="btn-bagi" onclick="bagi()">:</button>
+                <button type="button" name="btn_pangkat" onclick="pangkat()">^</button>
+                <button id="reset" type="reset" name="btn_pangkat">Hapus</button>
+            </div>
+
+        </form>
+    </div>
+    <script src="javascript/scriptjs.js"></script>
+</body>
+</html>
