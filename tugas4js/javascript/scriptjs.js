@@ -7,13 +7,13 @@ function tambah(){
     
     
     if(frm.angka1.value == "" && frm.angka2.value == ""){
-        alert("Maaf Angka dikolom 1 dan 2 Belum Dimasukkan");
+        alert("Maaf Angka dikolom 1 dan 2 Belum Diinput");
     }
     else if(frm.angka1.value == "" & frm.angka2.value != ""){
-        alert("Maaf Angka dikolom ke-1 Belum Dimasukkan");
+        alert("Maaf Angka dikolom ke-1 Belum Diinput");
     }
     else if(frm.angka1.value != "" & frm.angka2.value == ""){
-        alert("Maaf Angka dikolom ke-2 Belum Dimasukkan");
+        alert("Maaf Angka dikolom ke-2 Belum Diinput");
     }
     else {
         frm.hasil.value = total;
@@ -30,13 +30,13 @@ function kurang(){
     
     
     if(frm.angka1.value == "" && frm.angka2.value == ""){
-        alert("Maaf Angka dikolom 1 dan 2 Belum Dimasukkan");
+        alert("Maaf Angka dikolom 1 dan 2 Belum Diinput");
     }
     else if(frm.angka1.value == "" & frm.angka2.value != ""){
-        alert("Maaf Angka dikolom ke-1 Belum Dimasukkan");
+        alert("Maaf Angka dikolom ke-1 Belum Diinput");
     }
     else if(frm.angka1.value != "" & frm.angka2.value == ""){
-        alert("Maaf Angka dikolom ke-2 Belum Dimasukkan");
+        alert("Maaf Angka dikolom ke-2 Belum Diinput");
     }
     else {
         frm.hasil.value = total;
@@ -53,13 +53,13 @@ function kali(){
     
     
     if(frm.angka1.value == "" && frm.angka2.value == ""){
-        alert("Maaf Angka dikolom 1 dan 2 Belum Dimasukkan");
+        alert("Maaf Angka dikolom 1 dan 2 Belum Diinput");
     }
     else if(frm.angka1.value == "" & frm.angka2.value != ""){
-        alert("Maaf Angka dikolom ke-1 Belum Dimasukkan");
+        alert("Maaf Angka dikolom ke-1 Belum Diinput");
     }
     else if(frm.angka1.value != "" & frm.angka2.value == ""){
-        alert("Maaf Angka dikolom ke-2 Belum Dimasukkan");
+        alert("Maaf Angka dikolom ke-2 Belum Diinput");
     }
     else {
         frm.hasil.value = total;
@@ -76,13 +76,13 @@ function bagi(){
     
     
     if(frm.angka1.value == "" && frm.angka2.value == ""){
-        alert("Maaf Angka dikolom 1 dan 2 Belum Dimasukkan");
+        alert("Maaf Angka dikolom 1 dan 2 Belum Diinput");
     }
     else if(frm.angka1.value == "" & frm.angka2.value != ""){
-        alert("Maaf Angka dikolom ke-1 Belum Dimasukkan");
+        alert("Maaf Angka dikolom ke-1 Belum Diinput");
     }
     else if(frm.angka1.value != "" & frm.angka2.value == ""){
-        alert("Maaf Angka dikolom ke-2 Belum Dimasukkan");
+        alert("Maaf Angka dikolom ke-2 Belum Diinput");
     }
     else {
         frm.hasil.value = total;
@@ -99,13 +99,13 @@ function pangkat(){
     
     
     if(frm.angka1.value == "" && frm.angka2.value == ""){
-        alert("Maaf Angka dikolom 1 dan 2 Belum Dimasukkan");
+        alert("Maaf Angka dikolom 1 dan 2 Belum Diinput");
     }
     else if(frm.angka1.value == "" & frm.angka2.value != ""){
-        alert("Maaf Angka dikolom ke-1 Belum Dimasukkan");
+        alert("Maaf Angka dikolom ke-1 Belum Diinput");
     }
     else if(frm.angka1.value != "" & frm.angka2.value == ""){
-        alert("Maaf Angka dikolom ke-2 Belum Dimasukkan");
+        alert("Maaf Angka dikolom ke-2 Belum Diinput");
     }
     else {
         frm.hasil.value = total;
