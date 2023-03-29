@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghitung Volume Prisma Segitiga</title>
+</head>
+<body>
+    <form>
+        <span align="center"><h1> MENGHITUNG LUAS JAJARGENJANG</h1></span>
+        <h3> Masukkan Nilai</h3>
+        <p> alas : <input type="number" id="alas"></p>
+        <p> tinggi : <input type="number" id="tinggi"> </p>
+        <h4>Rumus menghitung Luas Jajargenjang adalah : V =  Alas * Tinggi</h4>
+        <p> <button onclick="hitung()">HItung</p>
+    </form>
+<script type="text/javascript">
+    function hitung(){
+        var alas = document.getElementById("alas").value;
+        var tinggi = document.getElementById("tinggi").value;
+
+        alert("Hasilnya adalah :" +alas*tinggi);
+    }
+</script>
+</body>
+</html>
